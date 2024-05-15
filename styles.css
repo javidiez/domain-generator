@@ -1,0 +1,72 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    margin:0;
+    padding: 0;
+}
+
+
+.hero{
+    background-color: slateblue;
+    padding-top: 50px;
+}
+
+.hero h1{
+    font-size: clamp(2rem, 4vw, 8rem);
+    font-weight: 600;
+    color: #fff;
+    text-shadow:  0px 0px 10px #666;
+    text-wrap: balance;
+    padding-bottom: 50px
+}
+
+.hero p{
+    font-size: clamp(1.4rem, 1.4vw, 8rem);
+    font-weight: 600;
+    color: #fff;
+    text-shadow:  0px 0px 10px #666;
+}
+
+.hero i{
+    font-size: clamp(2rem, 2.5vw, 8rem);
+    font-weight: 600;
+    color: #fff;
+    text-shadow:  0px 0px 10px #666;
+}
+
+.hero input{
+    height: 40px;
+    width: 200px;
+}
+
+.dg-img{
+    filter: drop-shadow(0 0 5px #fff9);
+    padding-bottom: 50px;
+    cursor: pointer;
+    transition: opacity 0.5s ease; /* Transición de 0.5 segundos */
+}
+
+.dg-img:hover {
+  opacity: 0.8; /* Opacidad al 50% cuando se hace hover */
+  filter: drop-shadow(0 0 10px #fff);
+}
+
+.dg-img:active {
+  opacity: 1; /* Opacidad completa al hacer clic */
+}
+
+.filas{
+    padding: 100px 0px;
+}
+
+.refresh{
+    cursor: pointer;
+}
+
+.clic {
+    text-shadow:  0px 0px 10px #666;
+}
